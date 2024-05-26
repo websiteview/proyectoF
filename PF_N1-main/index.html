@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Link to Script -->
+  <script src="./main.js" defer></script>
+  <script src="https://kit.fontawesome.com/54d27b19a8.js" crossorigin="anonymous"></script>
+
+  <!-- Link to CSS -->
+  <link rel="stylesheet" href="./style.css">
+  <title>To-Do App</title>
+</head>
+<style>
+  ul {
+    list-style: none;
+    /*  display: flex;
+    justify-content: center; */
+  }
+</style>
+
+<body>
+
+
+
+  <!-- SUBTITULOS -->
+  <h1 id="#Todo">#todo</h1>
+
+  <div class="subtitulos">
+    <nav>
+      <button class="activo" id="subtitulosAll"> <b>All</b></button>
+    
+
+    
+      <button id="SubtituloActive"> <b>Active</b></button>
+    
+
+    
+      <button id="SubtituloCompleted"> <b>Completed</b></button>
+    </nav>
+  </div>
+
+
+
+  <!-- CONTENIDO PRINCIPAL  -->
+  <div class="boton-input">
+    <div id="Buscador">
+      <input type="input" id="TareasBuscar" placeholder="   Add details" class="TareasBuscar">
+    </div>
+
+
+    <!-- BOTON ADD -->
+    <div class="button">
+      <a><button type="submit" id="boton" class="btn btn-primary btn-block">
+          Add
+        </button>
+      </a>
+    </div>
+  </div>
+
+
+  <!-- LISTA DE TAREAS -->
+
+  <ul class="Listatareas">
+    <!--<li >
+       
+      <label for="uno" >
+        <input type="checkbox" name="1" id="1" class="uno">
+        Do coding challenges
+      </label>
+      <button id="trash_1"><i class="fa-solid fa-trash"></i></button>
+      <button class="deleteAll"><i class="fa-solid fa-trash"> delete all</i></button>
+    </li>
+    <li>
+      
+      <label for="dos">
+        <input type="checkbox" name="dos" id="dos">
+        Do coding challenges
+      </label>
+      <button id="trash_2"><i class="fa-solid fa-trash"></i></button>
+    </li>
+    <li>
+      
+      <label for="tres">
+        <input type="checkbox" name="tres" id="tres">
+        Do coding challenges
+      </label>
+      <button id="trash_3"><i class="fa-solid fa-trash"></i></button>
+    </li> -->
+    
+  </ul>
+  <button class="deleteAll"><i class="fa-solid fa-trash"> delete all</i></button> 
+</body>
+
+</html>

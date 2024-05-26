@@ -1,0 +1,282 @@
+@import url(https://fonts.google.com/specimen/Poppins);
+
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+}
+
+/* .app_container{
+    margin: 0 auto;
+    width: 540px;
+    height: 680px;
+    padding: 1rem;
+} */
+
+
+body{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 1.5rem; 
+    padding-bottom: 5rem;
+    font-size: 50px;
+    /* margin: 2rem; */
+}
+
+.subtitulos{
+   
+    
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    padding-inline: 1rem;
+    font-style: initial; 
+    border-bottom: solid rgb(168, 164, 164) 2px; 
+    margin-right: 15rem;
+    margin-left: 15rem;
+    
+
+    
+    
+    /*  margin: 2rem; */ 
+
+}
+
+nav{
+
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ 
+#SubtitulosAll{
+    /* border-bottom-style: solid;
+    border-bottom-width: thin; 
+    border-color: rgb(168, 164, 164); */
+    
+    padding: 5rem; 
+    padding-bottom: 3px;
+    
+    
+    
+    /* border-bottom-style:groove; */
+    /* margin-right: 10px; */ 
+    /* margin-left: 10px; */
+    /* border-bottom: 5rem;*/ 
+    
+} 
+
+
+#SubtituloActive{
+    /* border-bottom-style: solid;
+    border-bottom-width: thin;
+    border-color: rgb(168, 164, 164); */
+    
+    /* padding: 2rem; */  
+    padding-bottom: 3px;
+    
+    
+  /*   border-bottom-style:groove;
+    padding: 1rem;  */
+    /*border-bottom: 5rem; */ 
+}
+ 
+#SubtituloCompleted{
+
+    /* border-bottom-style: solid ;
+    border-bottom-width:thin; 
+    border-color: rgb(168, 164, 164); */
+    /* padding: 5rem; */ 
+    padding-bottom: 3px;
+    
+    
+    
+    
+    /* border-bottom-style:groove;
+    padding: 1rem; */
+   /* border-bottom: 5rem; */
+    
+} 
+
+.activo{
+    border-bottom: #237ded solid 4px;
+    border-radius: 4px;
+}
+
+div button{
+    border: none;
+    outline: none;
+    width: 72px;
+    padding: 8px 0;
+    background-color: transparent;
+}
+
+
+.boton-input{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 20px;
+    margin-right: 1.5rem;
+    /* scroll-padding-inline: 50px; */
+    
+}
+
+
+
+#Buscador{
+    
+    display: flex;
+    justify-content: center;
+    border-radius: 15rem; 
+    padding: 0 10px;
+    /* width: 150px;
+    height: 50px; */
+    
+    
+    
+    
+    /* font-size: px; */
+   /*  margin-top: 0.5rem;
+    margin : 1rem; */
+    
+}
+
+.TareasBuscar{
+    border-radius: 1rem;
+    width: 580px;
+    height: 3.2rem;
+    margin-left: 3.5rem;
+    border-color: rgb(168, 164, 164);
+    /* margin-right: rem; */
+}
+
+
+#boton{
+   background-color: #237ded;
+   font-size: 16px;
+   width: 100px;
+   height: 50px;
+   border: 0;
+   border-radius: 13px;
+   text-align: center;
+   color: white;
+   cursor: pointer;
+   
+   
+   /* text-size-adjust: 5px; */ 
+}
+
+/* a:hover{
+    background-color: #5494e3;
+    transition: background-color 0.5s;
+
+} */
+
+#boton:hover{
+    background-color: #5494e3;
+
+}
+
+.button{
+
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    margin-right: 25px;
+    padding-right: 1rem;
+    margin-bottom: 1.5rem;  
+
+}
+
+
+.Listatareas{
+    position: absolute;
+    display:flex;
+    flex-direction:column ;
+    text-align: center;
+    
+    margin-right: 31rem;
+    font-size: 20px;
+    
+    
+    
+    /* justify-content: space-around; */
+    /* font-size: 90x; */
+}
+
+.uno{
+    
+    margin-bottom: .5rem;
+    
+    
+}
+/* 
+#dos{
+    margin-bottom: 1rem;
+}
+
+#tres{
+    margin-bottom: 1rem;
+}
+
+.trashButton{
+    display: flex;
+    flex-direction: column;
+} */
+
+#trash_1{
+
+   
+    border: none;
+    background: none;
+    
+    margin-left: 28rem;
+    cursor: pointer;
+    /* display:flex; */
+    /* justify-content: center; */
+    /* align-self: center;  */
+} 
+
+/* #trash_2{
+    /* display: flex;
+    justify-content:space-between; */
+   /* border: none;
+    background: none;
+    margin-left: 30rem;
+    cursor: pointer;
+
+} */
+
+/* #trash_3{
+    border: none;
+    background: none;
+    margin-left: 30rem;
+    cursor: pointer;
+
+} */
+
+.deleteAll{
+    
+    
+    font-size: 8px;
+    text-decoration-style: initial;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #eb5757;
+    color: white; 
+    cursor: pointer;
+    margin-left: 856px;
+    margin-top: 4rem;
+}
