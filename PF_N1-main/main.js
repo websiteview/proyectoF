@@ -159,8 +159,10 @@ SubtituloCompleted_btn.addEventListener('click', function(){
 /*Eventos para invocar funciones de eliminar y agregar*/
 
 deleteAll_btn.addEventListener('click', function(){
-  deleteCompletedtasks(); 
-  completed();
+    if (active === 'SubtituloCompleted'){
+     deleteCompletedtasks(); 
+     completed();
+  }
 })
 
 botonAdd.addEventListener('click', function(){
